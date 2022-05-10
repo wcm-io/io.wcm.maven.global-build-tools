@@ -62,7 +62,6 @@
   <!-- rules previously in rulesets/java/design.xml -->
   <rule ref="category/java/design.xml/ClassWithOnlyPrivateConstructorsShouldBeFinal" />
   <rule ref="category/java/design.xml/FinalFieldCouldBeStatic" />
-  <rule ref="category/java/design.xml/ImmutableField" />
   <rule ref="category/java/design.xml/LogicInversion" />
   <rule ref="category/java/design.xml/SimplifyBooleanExpressions" />
   <rule ref="category/java/design.xml/SimplifyConditional" />

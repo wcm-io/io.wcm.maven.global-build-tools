@@ -27,6 +27,9 @@
       <action type="update" dev="sseifert">
         SpotBugs: Suppress THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION and THROWS_METHOD_THROWS_CLAUSE_THROWABLE as they do not seem to work properly.
       </action>
+      <action type="update" dev="sseifert">
+        PMD: Remove rule 'category/java/design.xml/ImmutableField' to avoid false positives esp. with auto-injected fields.
+      </action>
     </release>
 
     <release version="26" date="2021-12-06">
