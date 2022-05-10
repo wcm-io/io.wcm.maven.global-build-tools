@@ -62,7 +62,6 @@
   <!-- rules previously in rulesets/java/design.xml -->
   <rule ref="category/java/design.xml/ClassWithOnlyPrivateConstructorsShouldBeFinal" />
   <rule ref="category/java/design.xml/FinalFieldCouldBeStatic" />
-  <rule ref="category/java/design.xml/ImmutableField" />
   <rule ref="category/java/design.xml/LogicInversion" />
   <rule ref="category/java/design.xml/SimplifyBooleanExpressions" />
   <rule ref="category/java/design.xml/SimplifyConditional" />
@@ -79,7 +78,6 @@
   <rule ref="category/java/errorprone.xml/ImplicitSwitchFallThrough" />
   <rule ref="category/java/errorprone.xml/MissingStaticMethodInNonInstantiatableClass" />
   <rule ref="category/java/errorprone.xml/NonCaseLabelInSwitchStatement" />
-  <rule ref="category/java/errorprone.xml/ReturnEmptyCollectionRatherThanNull" />
   <rule ref="category/java/errorprone.xml/SimpleDateFormatNeedsLocale" />
   <rule ref="category/java/errorprone.xml/SingleMethodSingleton" />
   <rule ref="category/java/errorprone.xml/SingletonClassReturningNewInstance" />
