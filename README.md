@@ -1,7 +1,7 @@
 <img src="https://wcm.io/images/favicon-16@2x.png"/> Global Build Tools
 ======
 [![Build](https://github.com/wcm-io/io.wcm.maven.global-build-tools/workflows/Build/badge.svg?branch=develop)](https://github.com/wcm-io/io.wcm.maven.global-build-tools/actions?query=workflow%3ABuild+branch%3Adevelop)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.global-build-tools/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.global-build-tools)
+[![Maven Central](https://img.shields.io/maven-central/v/io.wcm.maven/io.wcm.maven.global-build-tools)](https://repo1.maven.org/maven2/io/wcm/maven/io.wcm.maven.global-build-tools/)
 
 Definition of rules for static code analysis tools and IDEs.
 
