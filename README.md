@@ -6,7 +6,7 @@
 Definition of rules for static code analysis tools and IDEs.
 
 Documentation: https://wcm.io/tooling/maven/global-build-tools.html<br/>
-Issues: https://wcm-io.atlassian.net/browse/WTOOL<br/>
+Issues: https://github.com/wcm-io/io.wcm.maven.global-build-tools/issues<br/>
 Wiki: https://wcm-io.atlassian.net/wiki/<br/>
 Continuous Integration: https://github.com/wcm-io/io.wcm.maven.global-build-tools/actions<br/>
 Commercial support: https://wcm.io/commercial-support.html
