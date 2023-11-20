@@ -23,6 +23,9 @@
 <module name="Checker">
   <property name="severity" value="warning"/>
 
+  <!-- Allow suppression of checkstyle warnings via @SuppressWarnings -->
+  <module name="SuppressWarningsFilter" />
+
   <module name="TreeWalker">
     <property name="tabWidth" value="2"/>
 
@@ -193,8 +196,10 @@
     </module>
     <module name="MissingJavadocType"/>
     <module name="NonEmptyAtclauseDescription"/>
-    <!-- Allow suppression of checkstyle warnings -->
+    <!-- Allow suppression of checkstyle warnings via comments -->
     <module name="SuppressionCommentFilter"/>
+    <!-- Allow suppression of checkstyle warnings via @SuppressWarnings -->
+    <module name="SuppressWarningsHolder" />
 
   </module>
 
