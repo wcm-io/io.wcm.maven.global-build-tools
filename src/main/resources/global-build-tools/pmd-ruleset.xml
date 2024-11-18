@@ -70,7 +70,7 @@
   <rule ref="category/java/errorprone.xml/InstantiationToGetClass" />
   <rule ref="category/java/errorprone.xml/ImplicitSwitchFallThrough" />
   <rule ref="category/java/errorprone.xml/MissingStaticMethodInNonInstantiatableClass" />
-  <rule ref="category/java/errorprone.xml/NonCaseLabelInSwitchStatement" />
+  <rule ref="category/java/errorprone.xml/NonCaseLabelInSwitch" />
   <rule ref="category/java/errorprone.xml/SimpleDateFormatNeedsLocale" />
   <rule ref="category/java/errorprone.xml/SingleMethodSingleton" />
   <rule ref="category/java/errorprone.xml/SingletonClassReturningNewInstance" />
@@ -80,13 +80,13 @@
   <rule ref="category/java/multithreading.xml/UseNotifyAllInsteadOfNotify" />
   <rule ref="category/java/bestpractices.xml/AvoidReassigningParameters" />
   <rule ref="category/java/bestpractices.xml/ConstantsInInterface" />
-  <rule ref="category/java/bestpractices.xml/DefaultLabelNotLastInSwitchStmt" />
+  <rule ref="category/java/bestpractices.xml/DefaultLabelNotLastInSwitch" />
   <rule ref="category/java/bestpractices.xml/LiteralsFirstInComparisons" />
   <rule ref="category/java/bestpractices.xml/PreserveStackTrace" />
-  <rule ref="category/java/bestpractices.xml/SwitchStmtsShouldHaveDefault" />
+  <rule ref="category/java/bestpractices.xml/NonExhaustiveSwitch" />
   <rule ref="category/java/bestpractices.xml/UseCollectionIsEmpty" />
   <rule ref="category/java/performance.xml/OptimizableToArrayCall" />
-  <rule ref="category/java/performance.xml/TooFewBranchesForASwitchStatement" />
+  <rule ref="category/java/performance.xml/TooFewBranchesForSwitch" />
   <rule ref="category/java/documentation.xml/UncommentedEmptyConstructor" />
   <rule ref="category/java/documentation.xml/UncommentedEmptyMethodBody" />
   <rule ref="category/java/errorprone.xml/CloseResource">
