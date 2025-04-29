@@ -185,7 +185,7 @@
       <property name="allowMissingReturnTag" value="true"/>
     </module>
     <module name="JavadocVariable">
-      <property name="scope" value="public"/>
+      <property name="accessModifiers" value="public"/>
     </module>
     <module name="InvalidJavadocPosition"/>
     <module name="JavadocBlockTagLocation"/>
