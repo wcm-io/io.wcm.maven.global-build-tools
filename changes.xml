@@ -25,7 +25,7 @@
   <body>
 
     <release version="33" date="not released">
-      <action type="update" dev="sseifert">
+      <action type="update" dev="sseifert" issue="4">
         PMD: Replace rule category/java/errorprone.xml/AvoidLosingExceptionInformation with category/java/errorprone.xml/UselessPureMethodCall.
       </action>
     </release>
