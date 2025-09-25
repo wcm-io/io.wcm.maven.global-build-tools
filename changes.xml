@@ -28,6 +28,9 @@
       <action type="update" dev="sseifert" issue="4">
         PMD: Replace rule category/java/errorprone.xml/AvoidLosingExceptionInformation with category/java/errorprone.xml/UselessPureMethodCall.
       </action>
+      <action type="update" dev="sseifert">
+        Switch to Java 17.
+      </action>
     </release>
 
     <release version="32" date="2025-04-29">
