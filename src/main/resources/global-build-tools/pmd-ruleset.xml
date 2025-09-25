@@ -133,8 +133,8 @@
 
   <!-- rules previously in rulesets/java/strictexception.xml -->
   <rule ref="category/java/errorprone.xml/AvoidCatchingNPE" />
-  <rule ref="category/java/errorprone.xml/AvoidLosingExceptionInformation" />
   <rule ref="category/java/errorprone.xml/DoNotThrowExceptionInFinally" />
+  <rule ref="category/java/errorprone.xml/UselessPureMethodCall" />
   <rule ref="category/java/design.xml/AvoidRethrowingException" />
   <rule ref="category/java/design.xml/AvoidThrowingNewInstanceOfSameException" />
   <rule ref="category/java/design.xml/AvoidThrowingNullPointerException" />

@@ -24,6 +24,15 @@
     xsi:schemaLocation="http://maven.apache.org/changes/2.0.0 https://maven.apache.org/xsd/changes-2.0.0.xsd">
   <body>
 
+    <release version="33" date="2025-09-25">
+      <action type="update" dev="sseifert" issue="4">
+        PMD: Replace rule category/java/errorprone.xml/AvoidLosingExceptionInformation with category/java/errorprone.xml/UselessPureMethodCall.
+      </action>
+      <action type="update" dev="sseifert">
+        Switch to Java 17.
+      </action>
+    </release>
+
     <release version="32" date="2025-04-29">
       <action type="update" dev="sseifert" issue="3">
         Checkstyle: Make rules compatible with Checkstyle 10.22.0.
