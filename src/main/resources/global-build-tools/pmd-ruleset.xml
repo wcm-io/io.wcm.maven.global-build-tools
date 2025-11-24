@@ -132,7 +132,7 @@
   <rule ref="category/java/performance.xml/UseStringBufferForStringAppends" />
 
   <!-- rules previously in rulesets/java/strictexception.xml -->
-  <rule ref="category/java/errorprone.xml/AvoidCatchingNPE" />
+  <rule ref="category/java/errorprone.xml/AvoidCatchingGenericException" />
   <rule ref="category/java/errorprone.xml/DoNotThrowExceptionInFinally" />
   <rule ref="category/java/errorprone.xml/UselessPureMethodCall" />
   <rule ref="category/java/design.xml/AvoidRethrowingException" />
