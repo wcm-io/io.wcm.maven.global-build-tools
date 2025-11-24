@@ -25,7 +25,7 @@
   <body>
 
     <release version="34" date="not released">
-      <action type="update" dev="sseifert">
+      <action type="update" dev="sseifert" issue="5">
         PMD: Replace rule category/java/errorprone.xml/AvoidCatchingNPE with category/java/errorprone.xml/AvoidCatchingGenericException.
       </action>
     </release>
