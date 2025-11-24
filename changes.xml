@@ -24,6 +24,12 @@
     xsi:schemaLocation="http://maven.apache.org/changes/2.0.0 https://maven.apache.org/xsd/changes-2.0.0.xsd">
   <body>
 
+    <release version="34" date="not released">
+      <action type="update" dev="sseifert" issue="5">
+        PMD: Replace rule category/java/errorprone.xml/AvoidCatchingNPE with category/java/errorprone.xml/AvoidCatchingGenericException.
+      </action>
+    </release>
+
     <release version="33" date="2025-09-25">
       <action type="update" dev="sseifert" issue="4">
         PMD: Replace rule category/java/errorprone.xml/AvoidLosingExceptionInformation with category/java/errorprone.xml/UselessPureMethodCall.
