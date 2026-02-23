@@ -24,7 +24,7 @@
     xsi:schemaLocation="http://maven.apache.org/changes/2.0.0 https://maven.apache.org/xsd/changes-2.0.0.xsd">
   <body>
 
-    <release version="35" date="not released">
+    <release version="35" date="2026-02-23">
       <action type="update" dev="sseifert" issue="6">
         PMD: Replace rule category/java/errorprone.xml/DontImportSun with category/java/errorprone.xml/UnsupportedJdkApiUsage.
       </action>
