@@ -26,7 +26,7 @@
 
     <release version="36" date="not released">
       <action type="add" dev="sseifert" issue="7">
-        Spotless: Add license header template.
+        Spotless: Add license header template, define POM sort order.
       </action>
       <action type="add" dev="sseifert" issue="7">
         Eclipse Formatter: Add XML version for spotless integration.
