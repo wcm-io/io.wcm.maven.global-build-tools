@@ -209,9 +209,9 @@
     </filters>
     <resources>
       <resource>
+        <directory />
         <targetPath />
         <filtering />
-        <directory />
         <includes>
           <include />
         </includes>
