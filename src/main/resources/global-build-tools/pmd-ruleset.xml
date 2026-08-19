@@ -50,7 +50,7 @@
   <rule ref="category/java/errorprone.xml/UnsupportedJdkApiUsage" />
   <rule ref="category/java/codestyle.xml/UnnecessaryConstructor" />
   <rule ref="category/java/bestpractices.xml/OneDeclarationPerLine" />
-  <rule ref="category/java/design.xml/UseObjectForClearerAPI" />
+  <rule ref="category/java/design.xml/ExcessiveParameterList" />
 
   <!-- rules previously in rulesets/java/design.xml -->
   <rule ref="category/java/design.xml/ClassWithOnlyPrivateConstructorsShouldBeFinal" />
