@@ -28,6 +28,9 @@
       <action type="update" dev="sseifert" issue="8">
         PMD: Replace rule category/java/design.xml/UseObjectForClearerAPI with category/java/design.xml/ExcessiveParameterList.
       </action>
+      <action type="update" dev="sseifert" issue="9">
+        PMD: Replace deprecated rules UseUtilityClass with InstantiableUtilityClass, AvoidProtectedFieldInFinalClass and AvoidProtectedMethodInFinalClassNotExtending with ProtectedMemberInFinalClass, UselessPureMethodCall with UnusedReturnValue.
+      </action>
     </release>
 
     <release version="36" date="2026-04-17">
