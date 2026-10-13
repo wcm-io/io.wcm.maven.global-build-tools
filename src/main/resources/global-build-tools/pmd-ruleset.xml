@@ -50,7 +50,7 @@
   <rule ref="category/java/errorprone.xml/UnsupportedJdkApiUsage" />
   <rule ref="category/java/codestyle.xml/UnnecessaryConstructor" />
   <rule ref="category/java/bestpractices.xml/OneDeclarationPerLine" />
-  <rule ref="category/java/design.xml/UseObjectForClearerAPI" />
+  <rule ref="category/java/design.xml/ExcessiveParameterList" />
 
   <!-- rules previously in rulesets/java/design.xml -->
   <rule ref="category/java/design.xml/ClassWithOnlyPrivateConstructorsShouldBeFinal" />
@@ -60,7 +60,7 @@
   <rule ref="category/java/design.xml/SimplifyConditional" />
   <rule ref="category/java/design.xml/SingularField" />
   <rule ref="category/java/design.xml/SwitchDensity" />
-  <rule ref="category/java/design.xml/UseUtilityClass" />
+  <rule ref="category/java/design.xml/InstantiableUtilityClass" />
   <rule ref="category/java/errorprone.xml/AssignmentToNonFinalStatic" />
   <rule ref="category/java/errorprone.xml/AvoidInstanceofChecksInCatchClause" />
   <rule ref="category/java/errorprone.xml/ComparisonWithNaN" />
@@ -74,8 +74,7 @@
   <rule ref="category/java/errorprone.xml/SimpleDateFormatNeedsLocale" />
   <rule ref="category/java/errorprone.xml/SingleMethodSingleton" />
   <rule ref="category/java/errorprone.xml/SingletonClassReturningNewInstance" />
-  <rule ref="category/java/codestyle.xml/AvoidProtectedFieldInFinalClass" />
-  <rule ref="category/java/codestyle.xml/AvoidProtectedMethodInFinalClassNotExtending" />
+  <rule ref="category/java/design.xml/ProtectedMemberInFinalClass" />
   <rule ref="category/java/multithreading.xml/NonThreadSafeSingleton" />
   <rule ref="category/java/multithreading.xml/UseNotifyAllInsteadOfNotify" />
   <rule ref="category/java/bestpractices.xml/AvoidReassigningParameters" />
@@ -134,7 +133,7 @@
   <!-- rules previously in rulesets/java/strictexception.xml -->
   <rule ref="category/java/errorprone.xml/AvoidCatchingGenericException" />
   <rule ref="category/java/errorprone.xml/DoNotThrowExceptionInFinally" />
-  <rule ref="category/java/errorprone.xml/UselessPureMethodCall" />
+  <rule ref="category/java/errorprone.xml/UnusedReturnValue" />
   <rule ref="category/java/design.xml/AvoidRethrowingException" />
   <rule ref="category/java/design.xml/AvoidThrowingNewInstanceOfSameException" />
   <rule ref="category/java/design.xml/AvoidThrowingNullPointerException" />
